@@ -1,0 +1,63 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	margin-top: 70px;
+	text-align: center;
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	border: 2px solid lightgray;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.avatar:hover {
+	transition: 0.3s;
+	transform: rotate(90deg);
+	border: 2px solid orange;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 1.05em;
+	font-weight: bold;
+}
+
+.caption {
+	font-size: 18px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+figure {
+	text-align: center;
+}
+
+.photos {
+	display: inline;
+	padding: 15px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.photos:hover {
+	border: 1px solid red;
+}
+
+.instagram-icon {
+	width: 1em;
+	height: 1em;
+}
+
+footer {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 18px;
+}
